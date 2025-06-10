@@ -18,7 +18,9 @@ Pon a prueba tu intuición y suerte adivinando un número secreto entre **1 y 10
 
 ## 🖥️ Vista previa
 
-![Vista previa del juego]([https://i.imgur.com/0yKXQ6E.png](https://imgur.com/a/gRCEBA7))
+![Vista previa del juego](https://i.imgur.com/4QwQw7v.png)
+
+[Ver galería en Imgur](https://imgur.com/a/gRCEBA7)
 
 ---
 
