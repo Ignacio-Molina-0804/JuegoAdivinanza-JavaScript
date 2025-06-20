@@ -59,6 +59,7 @@ button {
     cursor: pointer;
     box-shadow: 0 2px 8px rgba(76, 175, 80, 0.08);
     transition: background 0.2s, transform 0.1s;
+    margin-top: 18px; 
 }
 
 button:hover {
@@ -73,4 +74,31 @@ button:hover {
     margin-top: 24px;
     min-height: 28px;
     transition: color 0.2s;
+}
+
+label[for="dificultad"] {
+    font-size: 18px;
+    color: #4a5568;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+select#dificultad {
+    padding: 10px 14px;
+    font-size: 18px;
+    border: 1.5px solid #bfc9d9;
+    border-radius: 8px;
+    outline: none;
+    background: #f7fafc;
+    color: #2d3a4b;
+    margin-bottom: 16px;
+    margin-right: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    transition: border-color 0.2s;
+    box-sizing: border-box;
+}
+
+select#dificultad:focus {
+    border-color: #4CAF50;
 }

@@ -12,8 +12,16 @@
 <body>
     <div class="container">
         <h1>Adivina el número - By Ignacio Molina</h1>
-        <p>Introduce un número entre 1 y 100:</p>
-        <input type="number" id="numeroEntrada" >
+        <div class="dificultad-row">
+            <label for="dificultad">Dificultad:</label>
+            <select id="dificultad" onchange="cambiarDificultad()">
+                <option value="facil">Fácil (1-50)</option>
+                <option value="media" selected>Media (1-100)</option>
+                <option value="dificil">Difícil (1-200)</option>
+            </select>
+        </div>
+        <p id="ayuda">Introduce un número entre 1 y 100:</p>
+        <input type="number" id="numeroEntrada">
         <button onclick="chequearResultado()">Comprobar</button>
         <p id="mensaje"></p>
     </div>
