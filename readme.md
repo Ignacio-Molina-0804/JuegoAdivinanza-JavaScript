@@ -1,15 +1,19 @@
 # 🎲 Juego de Adivinar el Número
 
 ¡Bienvenido al **Juego de Adivinar el Número**!  
-Pon a prueba tu intuición y suerte adivinando un número secreto entre **1 y 100**.
+Pon a prueba tu intuición y suerte adivinando un número secreto según la dificultad que elijas.
 
 ---
 
 ## 🚀 ¿Cómo jugar?
 
-1. Ingresa un número entre **1** y **100** en el campo de entrada.
-2. Haz clic en el botón **Comprobar**.
-3. Recibe pistas:
+1. Selecciona la **dificultad**:
+   - 🟢 Fácil: 1 a 50
+   - 🟡 Media: 1 a 100
+   - 🔴 Difícil: 1 a 200
+2. Ingresa un número dentro del rango correspondiente.
+3. Haz clic en el botón **Comprobar**.
+4. Recibe pistas:
    - 🔼 Si el número es **mayor** al secreto, te lo dirá.
    - 🔽 Si el número es **menor**, también lo sabrás.
    - ✅ Si aciertas, ¡felicitaciones!
